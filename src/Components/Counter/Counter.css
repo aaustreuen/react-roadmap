@@ -1,0 +1,17 @@
+.counter{
+    display: flex;
+    justify-content: center;
+
+}
+
+.button{
+    background-color: #fcbdfa;
+    font-size: 30px;
+    width: 80px;
+    color: #419e84;
+}
+
+.button-name{
+    color:white;
+    font-size: 25px;
+}

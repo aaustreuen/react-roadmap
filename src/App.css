@@ -1,0 +1,69 @@
+ .app-page {
+    display: grid;
+    grid-template-areas: 
+    'h h'
+    'n c' 
+    'f f';
+    grid-template-rows: 80px auto 1fr;
+    grid-template-columns: 1fr 6fr;
+}  
+
+.header {
+    grid-area: h;
+    background-color: #282c34;
+    padding: 10px;
+}
+
+.header-title {
+    text-align: center;
+    color: white;
+    font-size: 23px;
+}
+
+
+.active-link {
+    color: #848ff5;
+
+}
+.notactive-link {
+    color: white;
+}
+
+
+
+.content {
+    grid-area: c;
+    background-color: #282c34;
+    padding: 20px;
+}
+
+.content-title {
+    text-align: center;
+    color: white;
+}
+
+.content-text {
+    text-align: left;
+    color: white;
+}
+
+.content-code {
+    background-color: white;
+    border-radius: 30px;
+}
+
+.footer {
+    grid-area: f;
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+.roadmap-img img {
+width:100vh;
+}

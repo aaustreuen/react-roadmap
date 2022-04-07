@@ -1,0 +1,31 @@
+.navbar {
+    grid-area: n;
+    background-color: #282c34;
+    padding: 30px;
+}
+
+.navbar-block {
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar-title {
+    color: #edefff;
+    margin-bottom: 10px;
+}
+
+.navbar-item a {
+    text-decoration-line: none;
+    color: white;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.navbar-item a:hover {
+    background: white;
+    color: black;
+    min-width: 200%;
+    font-size: 1.5em;
+    transition: all ease 0.6s;
+    border-radius: 10px;
+}
